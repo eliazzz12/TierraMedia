@@ -5,4 +5,6 @@ public abstract class Creature {
   private int health;
   private int strength;
   private int defense;
+  private Weapon weapon;
+  private Armour armour;
 }
