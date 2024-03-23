@@ -8,6 +8,6 @@ public abstract class Creature {
   private Weapon weapon;
   private Armour armour;
 
-  public void speak(){
+  public abstract void speak();
   
 }
