@@ -5,4 +5,9 @@ public class Weapon {
   private int damage;
   private int strength;
   private boolean wear;
+
+  public getType(){
+    return type;
+  }
+  
 }
