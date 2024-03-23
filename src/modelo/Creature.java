@@ -10,7 +10,8 @@ public abstract class Creature {
 
   public abstract void speak();
   public void attack(Creature enemy){
-  
+    // Los métodos getters y setters están por crear
+    enemy.setHealth(enemy.getHealth()-(strength*(weapon.getDamage/10));
   }
   
 }
