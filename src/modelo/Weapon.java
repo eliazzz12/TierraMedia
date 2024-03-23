@@ -12,4 +12,10 @@ public class Weapon {
   public void setType(String type){
     this.type=type;
   }
+  public int getDamage(){
+    return damage;
+  }
+  public void setDamage(int damage){
+    this.damage=damage;
+  }
 }
