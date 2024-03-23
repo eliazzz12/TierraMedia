@@ -6,8 +6,10 @@ public class Weapon {
   private int strength;
   private boolean wear;
 
-  public getType(){
+  public String getType(){
     return type;
   }
-  
+  public void setType(String type){
+    this.type=type;
+  }
 }
