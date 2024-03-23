@@ -13,5 +13,5 @@ public abstract class Creature {
     // Los métodos getters y setters están por crear
     enemy.setHealth(enemy.getHealth()-(strength*(weapon.getDamage/10));
   }
-  
+
 }
