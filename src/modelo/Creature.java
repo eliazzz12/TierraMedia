@@ -9,5 +9,8 @@ public abstract class Creature {
   private Armour armour;
 
   public abstract void speak();
+  public void attack(Creature enemy){
+  
+  }
   
 }
