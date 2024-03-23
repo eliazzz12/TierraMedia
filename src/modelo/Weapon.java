@@ -2,7 +2,7 @@ package modelo;
 
 public class Weapon {
   private String type;
-  private int attack;
+  private int damage;
   private int strength;
   private boolean wear;
 }
