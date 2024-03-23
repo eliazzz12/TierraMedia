@@ -7,4 +7,9 @@ public abstract class Creature {
   private int defense;
   private Weapon weapon;
   private Armour armour;
+
+  public void attack(Creature enemy){
+  // Los métodos getters y setters están por crear
+  enemy.setHealth(enemy.getHealth()-(strength*(weapon.getDamage/20));
+  }
 }
