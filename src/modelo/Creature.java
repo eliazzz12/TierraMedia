@@ -7,4 +7,7 @@ public abstract class Creature {
   private int defense;
   private Weapon weapon;
   private Armour armour;
+
+  public void speak(){
+  
 }
